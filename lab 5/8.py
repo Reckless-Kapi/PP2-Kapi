@@ -1,10 +1,7 @@
 import re
-from pathlib import Path
 
-file_path = Path("C:/Users/kasym/Documents/Kapi Labs for PP/lab 5/raw.txt")
-with file_path.open("r", encoding="utf-8") as file:
-    receipt_data = file.read()
+def split_at_uppercase(s):
+    return re.findall(r'[A-Z][a-z]*', s)
 
-split_at_uppercase = re.findall(r'[A-Z][^A-Z]*', receipt_data)
-
-print(split_at_uppercase)
+user_input = input()
+print(split_at_uppercase(user_input))

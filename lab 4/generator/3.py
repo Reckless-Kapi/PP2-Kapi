@@ -4,7 +4,4 @@ def divisible(n):
             yield i
 
 n = int(input())
-arr=[]
-for num in divisible(n):
-    arr.append(num)
-print(arr)
+print(list(divisible(n)))

@@ -4,9 +4,5 @@ def squares(a, b):
 
 a = int(input("Starting number: "))
 b = int(input("Ending number: "))
-list = []
 
-for num in squares(a, b):
-    list.append(num)
-
-print(list)
+print(list(squares(a, b)))
