@@ -1,7 +1,7 @@
 from datetime import datetime
 
 def difference():
-    print("First date: ")
+    print("Frst date: ")
     date1_str = input() 
     print("Second date: ")
     date2_str = input()

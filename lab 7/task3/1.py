@@ -7,7 +7,7 @@ red = (255, 0, 0)
 clock = pygame.time.Clock()
 FPS = 60
 pos = [30, 30]
-speed = 20
+speed = 20  
 radius = 25
 running = True
 

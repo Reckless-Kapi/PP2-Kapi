@@ -26,7 +26,7 @@ speed = 10
 
 # Функция генерации еды
 def generate_food():
-    is_super_food = random.random() < 0.1  # 10% шанс на супер еду
+    is_super_food = random.random() < 0.5  # 10% шанс на супер еду
     while True:
         x = random.randint(0, (WIDTH - BLOCK_SIZE) // BLOCK_SIZE) * BLOCK_SIZE
         y = random.randint(0, (HEIGHT - BLOCK_SIZE) // BLOCK_SIZE) * BLOCK_SIZE

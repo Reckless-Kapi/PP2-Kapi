@@ -1,0 +1,15 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "pq_local",
+            "database": "snake",
+            "username": "postgres",
+            "connectionTimeout": 30,
+            "password": "1234kbtu"
+        }
+    ]
+}

@@ -9,7 +9,7 @@ def list_directories_and_files(path):
     directories = [item for item in all_items if os.path.isdir(os.path.join(path, item))]
     files = [item for item in all_items if os.path.isfile(os.path.join(path, item))]
 
-    print("Directories:", directories)
+    print("Directories:", directories)  
     print("Files:", files)
     print("All items:", all_items)
 
